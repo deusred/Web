@@ -1,0 +1,181 @@
+@import url(reset.css);
+header{
+	
+	position: absolute;
+width: 1440px;
+height: 60px;
+left: 0px;
+top: 0px;
+background-color:#FE1A19;
+
+
+
+font-family: Helvetica;
+font-size: 20px;
+line-height: 23px;
+
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+
+	section {
+		position: absolute;
+width: 400px;
+height: 800px;	
+border: 5px solid #E5E000;
+box-sizing: border-box;
+border-radius: 30px;
+
+	}
+	.first {
+	position: absolute;
+
+
+left: 70px;
+top: 112px;
+}
+.divOne{
+	position: absolute;
+
+	left: 33px;
+	top:139px;
+
+font-family: Times New Roman;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+color: #000000;
+	}
+	.h1First {
+		position: absolute;
+		width: 207px;
+		height:23px;
+		top:-90px;
+		left: 1px;
+
+		font-family:Helvetica;
+		font-size: 20px;
+		line-height:23px;
+		display: flex;
+		align-items:center;
+
+	}
+	.second {
+	
+
+left: 520px;
+top: 112px;
+
+
+
+font-family: Times New Roman;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+	}
+	.h1Second {
+		position: absolute;
+		width: 207px;
+		height:23px;
+		top:-90px;
+		left: 1px;
+
+		font-family:Helvetica;
+		font-size: 20px;
+		line-height:23px;
+		display: flex;
+		align-items:center;
+	}
+	.divTwo{
+	position: absolute;
+
+	left: 33px;
+	top:139px;
+
+font-family: Times New Roman;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+color: #000000}
+	.third
+	{
+	left: 970px;
+    top: 112px;
+    font-family: Times New Roman;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+	}
+	.h1Third {
+		position: absolute;
+		width: 207px;
+		height:23px;
+		top:-90px;
+		left: 1px;
+
+		font-family:Helvetica;
+		font-size: 20px;
+		line-height:23px;
+		display: flex;
+		align-items:center;
+	}
+	.divThird {
+	position: absolute;
+
+	left: 33px;
+	top:139px;
+
+font-family: Times New Roman;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+justify-content: center;
+
+color: #000000
+
+	}
+	.end {
+		position: absolute;
+width: 1440px;
+height: 60px;
+left: 0px;
+top: 964px;
+
+background: #FE1A19;
+color: white;
+font-family: Times New Roman;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+	}
+	.buttonBack {
+		position: absolute;
+width: 70px;
+height: 20px;
+left: 1350px;
+top: 984px;
+		background: #FE1A19;
+
+		color: white;
+font-family: Helvetica;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+
+
+	}
