@@ -1,0 +1,39 @@
+@import url(reset.css);
+.flexContainer {
+	
+	width: 1440px;
+height: 140px;
+left: 0px;
+top: 0px;
+
+}
+
+
+.flexItem{
+	font-family: Arial;
+font-size: 30px;
+align-items:;
+	
+
+
+}
+a {text-decoration: none;
+color:#E50043 }
+.imgContainer {
+	
+width: 1440px;
+height: 950px;
+left: 1px;
+top: 140px;}
+.pItem{
+font-family: Arial;
+font-size: 100px;
+line-height: 115px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #E50043;
+
+}
+
