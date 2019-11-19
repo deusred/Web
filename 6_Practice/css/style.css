@@ -1,0 +1,236 @@
+@import url(reset.css);
+.flexContainer {
+	
+	width: 1440px;
+height: 140px;
+
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.flexItem{
+	padding-right: 50px;
+	padding-left: 48px;
+	font-family: Arial;
+font-size: 40px;
+color: #E50043;
+	}
+a {text-decoration: none;
+color:#E50043 }
+.imgContainer {
+	
+width: 1440px;
+height: 950px;
+left: 1px;
+top: 140px;
+display: flex;
+align-items: center;
+text-align: center;
+background: url(..//img/logo.png);
+
+}
+.pItem{
+font-family: Arial;
+font-size: 100px;
+line-height: 115px;
+margin: auto;
+color: #E50043;
+
+}
+
+.sectionContainer 
+{position: absolute;
+	width: 1040px;
+height: 280px;
+left: 201px;
+top: 1240px;
+
+border: 3px solid #F8BFC7;
+box-sizing: border-box;
+border-radius: 20px;
+}
+.divItem
+{position: absolute;
+
+	width: 992px;
+height: 232px;
+left: 24px;
+top: 24px;
+
+font-family: Arial;
+font-size: 25px;
+line-height: 29px;
+
+
+
+
+letter-spacing: 0.05em;
+
+color: #000000;
+
+}
+.bottleContainer {
+	position: absolute;
+	width: 1040px;
+	height: 1000px;
+	left: 200px;
+	display: flex;
+	justify-content:space-between;
+	
+top: 1670px;
+}
+.bottleItem1 {
+width: 281px;
+height: 863px;
+
+
+
+background: url(..//img/wang.png);
+}
+.bottleItem2 {
+	
+width: 281px;
+height: 863px;
+
+
+
+
+background: url(..//img/blue.png);
+}
+.bottleItem3 {
+width: 281px;
+height: 863px;
+
+
+
+
+background: url(..//img/chiara.png);
+}
+.bottleName1
+{position: absolute;
+	top: 870px;
+	left: 20px;
+	width: 249px;
+height: 58px;
+
+font-family: Arial;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+
+}
+.bottleName2
+{position: absolute;
+	top: 870px;
+	width: 249px;
+height: 58px;
+left: 400px;
+
+	font-family: Arial;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+
+}
+.bottleName3
+{position: absolute;
+	top: 870px;
+	width: 237px;
+height: 58px;
+left: 780px;
+
+	font-family: Arial;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+
+}
+.sectionContainer2
+{
+	position: absolute;
+	width: 1040px;
+	height: 280px;
+	left: 201px;
+top: 2789px;
+border: 3px solid #F8BFC7;
+box-sizing: border-box;
+border-radius: 20px;
+}
+.miniText {
+	position: absolute;
+	width:749px;
+	height:220px;
+	left:302px;
+	top:30px;
+	font-family: Arial;
+font-size: 25px;
+line-height: 29px;
+display: flex;
+align-items: center;
+letter-spacing: 0.05em;
+}
+.miniBottle {
+	position: absolute;
+	width:101px;
+	height:220px;
+	left:102px;
+	top:30px;
+	background: url(..//img/glass.png);
+
+}
+.footerContainer
+{
+	position: absolute;
+	width: 1440px;
+height: 140px;
+top: 3219px;
+background: #F8BFC7;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.footerItem {
+	position: absolute;
+		width: 330px;
+height: 40px;
+left: 50px;
+top: 3269px;
+
+font-family: Arial;
+font-size: 50px;
+line-height: 57px;
+display: flex;
+align-items: center;
+
+color: #FFFFFF;
+
+}
+.footerItem1 {
+	position: absolute;
+width: 110px;
+height: 40px;
+left: 1280px;
+top: 3269px;
+
+font-family: Arial;
+font-size: 50px;
+line-height: 57px;
+display: flex;
+align-items: center;
+text-align: right;
+
+color: #FFFFFF;
+}
