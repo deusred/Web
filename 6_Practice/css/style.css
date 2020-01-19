@@ -1,214 +1,195 @@
 @import url(reset.css);
-.flexContainer {
-	
-	width: 1440px;
-height: 140px;
 
+.flexContainer {
+width: 1440px;
+height: 140px;
 display: flex;
+position: fixed;
 justify-content: space-between;
 align-items: center;
-
 }
 
-.flexItem{
-	padding-right: 50px;
-	padding-left: 48px;
-	font-family: Arial;
+.flexItem {
+padding-right: 50px;
+padding-left: 48px;
+font-family: Arial;
 font-size: 40px;
 color: #E50043;
-	}
+}
+
 a {text-decoration: none;
 color:#E50043 }
+
 .imgContainer {
-	
 width: 1440px;
 height: 950px;
-
 display: flex;
 align-items: center;
 text-align: center;
 background: url(..//img/logo.png);
-
 }
-.pItem{
+
+.pItem {
 font-family: Arial;
 font-size: 100px;
 line-height: 115px;
 margin: auto;
 color: #E50043;
+}
 
-}
-.mainSection
-{ width: 1440px;
-	height: 280px;
-	display: flex;
-	justify-content:center;
-	align-items: center;
-	
-	
-}
-.sectionContainer 
-{
-	width: 1040px;
+.mainSection {
+width: 1440px;
 height: 280px;
-top: 1500px;
-	display: flex;
-	justify-content:center;
-	align-items: center;
-	
-	
-	border: 3px solid #F8BFC7;
+display: flex;
+justify-content:center;
+align-items: center;
+}
+
+.sectionContainer {
+width: 1040px;
+height: 280px;
+
+display: flex;
+margin-top: 150px;
+justify-content:center;
+align-items: center;
+border: 3px solid #F8BFC7;
 box-sizing: border-box;
 border-radius: 20px;
 }
-.divItem
-{
-	width: 992px;
+
+.divItem {
+width: 992px;
 height: 232px;
-top: 1254px;
 font-family: Arial;
 font-size: 25px;
 line-height: 29px;
 letter-spacing: 0.05em;
 color: #000000;
+}
 
-}
 .bottleContainer {
-		width: 1040px;
-	height: 90px;
-		display: flex;
-	justify-content:space-between;
-	margin: 150px 200px 797px 213px;
-	
-top: 1670px;
+width: 1040px;
+height: 90px;
+display: flex;
+justify-content:space-between;
+margin: 150px 200px 797px 213px;
 }
-.bottleItem1 {
+
+.imageOne {
 width: 281px;
 height: 863px;
 background: url(..//img/wang.png);
 }
-.bottleItem2 {
 
+.imageTwo {
 width: 281px;
 height: 863px;
 background: url(..//img/blue.png);
 }
-.bottleItem3 {
+
+.imageThree {
 width: 281px;
 height: 863px;
 background: url(..//img/chiara.png);
 }
+
 .bContainer {
-	width: 1040px;
-	height: 208px;
-		display: flex;
+width: 1040px;
+height: 208px;
+display: flex;
 text-align: center;
-margin: 10px 200px 0px 213px;
+margin: 10px 250px 0px 213px;
 justify-content: space-between;
-		
 }
-.bottleName1
-{	
+
+.bottleNameOne {	
 width: 249px;
 height: 58px;
 font-family: Arial;
 font-size: 25px;
 line-height: 29px;
-
 }
-.bottleName2
-{	
+
+.bottleNameTwo {	
 width: 249px;
 height: 58px;
 font-family: Arial;
 font-size: 25px;
 line-height: 29px;
 text-align: center;
-
 }
-.bottleName3
-{
+
+.bottleNameThree {
 width: 237px;
 height: 58px;
 font-family: Arial;
 font-size: 25px;
 line-height: 29px;
 text-align: center;
-
-
 }
-.sectionContainer2
-{	
-	width: 1040px;
-	height: 280px;
-	
 
+.sectionContainerSecond {	
+width: 1040px;
+height: 280px;
 border: 3px solid #F8BFC7;
 box-sizing: border-box;
 border-radius: 20px;
 display: flex;
-	justify-content:space-between;
-	align-items: center;
-	margin:156px 200px;
-	top: 1000px;
+justify-content:space-between;
+align-items: center;
+margin:156px 200px;
+top: 1000px;
 }
+
 .miniText {
-	width:749px;
-	height:220px;
-	
+width:749px;
+height:220px;
+margin-right: 30px;
 font-family: Arial;
 font-size: 25px;
 line-height: 29px;
 letter-spacing: 0.05em;
 }
-.miniBottle {
-	
-	width:101px;
-	height:220px;
-	background: url(..//img/glass.png);
 
+.miniBottle {
+width:101px;
+height:220px;
+margin-left: 80px;
+background: url(..//img/glass.png);
 }
-.footerContainer
-{
-	position: absolute;
-	width: 1440px;
+
+.footerContainer {
+position: absolute;
+width: 1440px;
 height: 140px;
-top: 3219px;
 background: #F8BFC7;
 display: flex;
 align-items: center;
 justify-content: space-between;
 }
-.footerItem {
-	
-		width: 330px;
-height: 40px;
-left: 50px;
-top: 3269px;
 
+.footerItem {
+width: 330px;
+height: 40px;
 display: flex;
+margin-left: 51px;
 font-family: Arial;
 font-size: 50px;
 line-height: 57px;
-
 align-items: center;
-
 color: #FFFFFF;
-
 }
-.footerItem1 {
-	
+
+.footerItemOne {
 width: 110px;
 height: 40px;
-left: 1280px;
-top: 3269px;
-
 font-family: Arial;
+margin-right: 50px;
 font-size: 50px;
 line-height: 57px;
 display: flex;
 align-items: center;
 text-align: right;
-
 color: #FFFFFF;
 }
