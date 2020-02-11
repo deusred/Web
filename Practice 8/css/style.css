@@ -1,0 +1,86 @@
+@import url(reset.css);
+
+header  {
+	width: 1440px;
+	height: 10vh;
+	background-color: #FEB700;
+	margin: auto;
+	}
+.heading {
+	display: flex;
+	padding-top: 1vh;
+	margin: auto;
+	left: 368px;
+    font-family: Times New Roman;
+    font-size: 50px;
+    line-height: 57px;
+    justify-content: space-around;
+    
+}
+.columns {
+	width: 80vw;
+	margin: auto;
+	display: flex;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	justify-content: space-between;
+	
+	
+}
+.text {
+	padding: 15px;
+	
+}
+div.column {
+	width: calc((100% - 100px)/3);
+	font-family: Times New Roman;
+    font-size: 20px;
+
+    line-height: 100%;
+    min-height: 80vh;
+    border: 1px solid black;
+    
+    }
+
+.imagePotatoes {
+	background-image: url(../img/potatoes.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+.imageYogurt {
+    background-image: url(../img/yogurt.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
+
+}
+ .imageGranola {
+    background-image: url(../img/granola.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100%;
+} 
+footer {
+	width: 1440px;
+	height: 10vh;
+	background-color: #FEB700;
+	margin: auto;
+}
+.container {
+	display: flex;
+	font-family: Times New Roman;
+    font-size: 50px;
+    line-height: 57px;
+	justify-content: space-between;
+}
+.itemOne {
+	margin-left: 5vw;
+	margin-top: 2vh;
+}
+.itemSecond {
+	margin-right: 5vw;
+	margin-top: 2vh;}
+a {	
+    text-decoration:none;
+}
